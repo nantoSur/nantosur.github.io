@@ -42,7 +42,7 @@ const translations = {
     "player.pause": "Jeda",
     "player.statValue": "24/7",
     "player.happyClients": "siaga maintenance",
-    "player.stack": "Elastix · FreePBX · Proxmox",
+    "player.stack": "FreeSWITCH · Asterisk · VM · CT",
 
     "ticker.text": "IP PBX ✦ SBC ✦ FXO / FXS ✦ E1 ✦ GSM GATEWAY ✦ PROXMOX ✦ OMNICHANNEL ✦\u00a0",
 
@@ -171,7 +171,7 @@ const translations = {
     "player.pause": "Pause",
     "player.statValue": "24/7",
     "player.happyClients": "on-call support",
-    "player.stack": "Elastix · FreePBX · Proxmox",
+    "player.stack": "FreeSWITCH · Asterisk · VM · CT",
 
     "ticker.text": "IP PBX ✦ SBC ✦ FXO / FXS ✦ E1 ✦ GSM GATEWAY ✦ PROXMOX ✦ OMNICHANNEL ✦\u00a0",
 
