@@ -45,6 +45,8 @@ Lalu buka `http://localhost:8000`.
 
 `robots.txt`, `sitemap.xml`, canonical, meta description, dan data terstruktur `Person` sudah disiapkan di repo ini. Indexing biasanya memakan waktu beberapa hari sampai beberapa minggu.
 
+File `google*.html` adalah file verifikasi Search Console. **Jangan dihapus** selama property masih aktif, atau verifikasi bisa dicabut.
+
 ## Catatan
 
 Desain ini **terinspirasi** oleh Apple Music, bukan salinan aset atau identitas Apple.
