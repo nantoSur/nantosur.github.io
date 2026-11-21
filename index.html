@@ -1,0 +1,308 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#050a14" />
+    <meta
+      name="description"
+      content="Portofolio UI/UX Designer & Creative Developer — karya, proses, dan ide."
+      data-i18n-content="meta.description"
+    />
+    <title>Nama Kamu — Creative Developer</title>
+    <script>
+      document.documentElement.classList.add("js");
+    </script>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main" data-i18n="common.skip">Lewati ke konten</a>
+
+    <header class="site-header" id="header">
+      <nav class="nav container" aria-label="Navigasi utama">
+        <a class="brand" href="#top" data-i18n-aria="common.brandAria">
+          <span class="brand-mark" aria-hidden="true">
+            <svg viewBox="0 0 28 28" fill="none">
+              <path d="M7.5 22V13.8C7.5 9.9 10 7 14 7s6.5 2.9 6.5 6.8V22" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+            </svg>
+          </span>
+          <span class="brand-name" data-i18n="common.brand">nanto</span>
+        </a>
+
+        <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="nav-panel" aria-label="Buka menu" data-i18n-aria="common.menuOpen">
+          <span></span><span></span>
+        </button>
+
+        <div class="nav-panel" id="nav-panel">
+          <a href="#karya" data-i18n="nav.work">Karya</a>
+          <a href="#tentang" data-i18n="nav.about">Tentang</a>
+          <a href="#proses" data-i18n="nav.process">Proses</a>
+
+          <div class="lang-switch" role="group" data-i18n-aria="common.languageLabel">
+            <button type="button" class="lang-btn is-active" data-lang-btn="id" aria-pressed="true">ID</button>
+            <button type="button" class="lang-btn" data-lang-btn="en" aria-pressed="false">EN</button>
+          </div>
+
+          <a class="nav-cta" href="#kontak" data-i18n="nav.contact">Hubungi Saya</a>
+        </div>
+      </nav>
+    </header>
+
+    <main id="main">
+      <!-- HERO -->
+      <section class="hero" id="top">
+        <div class="hero-bg" aria-hidden="true">
+          <span class="blob blob--pink"></span>
+          <span class="blob blob--orange"></span>
+          <span class="blob blob--purple"></span>
+          <span class="hero-grid"></span>
+        </div>
+
+        <div class="container hero-inner">
+          <div class="hero-copy" data-reveal>
+            <p class="eyebrow"><span class="eyebrow-dot"></span> <span data-i18n="hero.eyebrow">Portofolio · 2026</span></p>
+            <h1><span data-i18n="hero.titleLead">Desain digital yang </span><span class="gradient-text" data-i18n="hero.titleAccent">terasa hidup.</span></h1>
+            <p class="hero-lead"><span data-i18n="hero.leadBefore">Halo, saya </span><strong data-i18n="common.name">Nama Kamu</strong><span data-i18n="hero.leadAfter"> — UI/UX designer dan creative developer. Saya mengubah ide yang kompleks jadi pengalaman yang sederhana, cepat, dan menyenangkan dipakai.</span></p>
+
+            <div class="hero-actions">
+              <a class="btn btn--primary" href="#karya">
+                <span data-i18n="hero.viewWork">Lihat karya</span>
+                <svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M4 10h11m-4-4 4 4-4 4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" /></svg>
+              </a>
+              <a class="btn btn--ghost" href="mailto:halo@nanto.id" data-i18n="common.cv">Download CV</a>
+            </div>
+
+            <dl class="hero-stats">
+              <div><dt data-i18n="hero.stat1Label">Pengalaman</dt><dd data-i18n="hero.stat1Value">6+ tahun</dd></div>
+              <div><dt data-i18n="hero.stat2Label">Proyek selesai</dt><dd data-i18n="hero.stat2Value">40+</dd></div>
+              <div><dt data-i18n="hero.stat3Label">Penghargaan</dt><dd data-i18n="hero.stat3Value">12</dd></div>
+            </dl>
+          </div>
+
+          <div class="hero-visual" data-reveal style="--delay: 140ms">
+            <div class="player" id="player">
+              <div class="player-top">
+                <span class="player-label" data-i18n="player.nowPlaying">Sedang diputar</span>
+                <span class="player-time">03:24</span>
+              </div>
+
+              <div class="player-main">
+                <div class="album-art" aria-hidden="true">
+                  <span class="album-ring"></span>
+                  <span class="album-core"></span>
+                </div>
+                <div class="player-info">
+                  <p class="player-kicker" data-i18n="player.featured">Proyek pilihan</p>
+                  <h2 class="player-title" data-i18n="player.title">Harmony OS</h2>
+                  <p class="player-artist" data-i18n="player.artist">Desain Produk · Interaksi</p>
+                </div>
+              </div>
+
+              <div class="waveform" aria-hidden="true">
+                <span></span><span></span><span></span><span></span><span></span>
+                <span></span><span></span><span></span><span></span><span></span>
+                <span></span><span></span><span></span><span></span><span></span>
+                <span></span><span></span><span></span><span></span><span></span>
+                <span></span><span></span><span></span><span></span><span></span>
+                <span></span><span></span><span></span><span></span><span></span>
+              </div>
+
+              <div class="player-controls">
+                <button class="icon-btn" type="button" aria-label="Sebelumnya" data-i18n-aria="player.previous">
+                  <svg viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"><path d="M5 5v10a1 1 0 0 0 2 0V5a1 1 0 1 0-2 0Zm10.7.3a1 1 0 0 0-1.4 0L8 10.6l6.3 5.3a1 1 0 0 0 1.4-1.4L10.4 10l5.3-4.5a1 1 0 0 0 0-1.2Z" /></svg>
+                </button>
+                <button class="play-btn" id="playBtn" type="button" aria-label="Putar" aria-pressed="false">
+                  <svg class="icon-play" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5.2a1 1 0 0 1 1.5-.86l9.1 6.8a1 1 0 0 1 0 1.72l-9.1 6.8A1 1 0 0 1 8 18.8V5.2Z" /></svg>
+                  <svg class="icon-pause" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M7 5h3v14H7V5Zm7 0h3v14h-3V5Z" /></svg>
+                </button>
+                <button class="icon-btn" type="button" aria-label="Berikutnya" data-i18n-aria="player.next">
+                  <svg viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"><path d="M15 5v10a1 1 0 1 0 2 0V5a1 1 0 1 0-2 0ZM4.3 5.3a1 1 0 0 1 1.4 0L12 10.6l-6.3 5.3a1 1 0 0 1-1.4-1.4L9.6 10 4.3 5.5a1 1 0 0 1 0-.2Z" /></svg>
+                </button>
+                <div class="player-progress" aria-hidden="true"><span></span></div>
+              </div>
+            </div>
+
+            <div class="float-card float-card--one" aria-hidden="true">
+              <span class="float-icon">✦</span>
+              <span><strong data-i18n="player.statValue">24/7</strong><small data-i18n="player.happyClients">siaga maintenance</small></span>
+            </div>
+            <div class="float-card float-card--two" aria-hidden="true">
+              <span class="float-dots"><i></i><i></i><i></i></span>
+              <span data-i18n="player.stack">Figma · Framer · React</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="scroll-hint" aria-hidden="true"><span data-i18n="hero.scroll">Gulir</span><i></i></div>
+      </section>
+
+      <!-- TICKER -->
+      <div class="ticker" aria-hidden="true">
+        <div class="ticker-track">
+          <span data-i18n="ticker.text">UI DESIGN ✦ INTERACTION ✦ MOTION ✦ FRONTEND ✦ BRANDING ✦ SYSTEM DESIGN ✦&nbsp;</span>
+          <span data-i18n="ticker.text">UI DESIGN ✦ INTERACTION ✦ MOTION ✦ FRONTEND ✦ BRANDING ✦ SYSTEM DESIGN ✦&nbsp;</span>
+        </div>
+      </div>
+
+      <!-- WORK -->
+      <section class="section work" id="karya">
+        <div class="container">
+          <div class="section-head" data-reveal>
+            <div>
+              <p class="kicker" data-i18n="work.kicker">Karya pilihan</p>
+              <h2 data-i18n="work.title">Hal-hal yang saya buat.</h2>
+            </div>
+            <p class="section-note" data-i18n="work.note">Empat proyek terbaru yang paling saya suka — dari riset sampai detail terakhir.</p>
+          </div>
+
+          <div class="work-grid">
+            <article class="work-card work-card--pink" data-reveal>
+              <div class="work-card__top"><span class="tag" data-i18n="work.tagMobile">Mobile App</span><span class="year">2026</span></div>
+              <div class="work-card__body">
+                <p class="work-card__index">01 / 04</p>
+                <h3 data-i18n="work.project1Title">Harmony — Music Companion</h3>
+                <p data-i18n="work.project1Desc">Aplikasi yang membantu pengguna menemukan ritme kerja lewat playlist adaptif dan visualisasi audio.</p>
+              </div>
+              <div class="work-card__art" aria-hidden="true"><span class="disc"></span><span class="bar"></span><span class="bar"></span><span class="bar"></span></div>
+              <a class="work-card__link" href="#kontak" data-i18n-aria="work.case1Aria"><span data-i18n="work.case1">Lihat studi kasus Harmony</span> <span aria-hidden="true">↗</span></a>
+            </article>
+
+            <article class="work-card work-card--blue" data-reveal style="--delay: 90ms">
+              <div class="work-card__top"><span class="tag" data-i18n="work.tagWeb">Web Platform</span><span class="year">2025</span></div>
+              <div class="work-card__body">
+                <p class="work-card__index">02 / 04</p>
+                <h3 data-i18n="work.project2Title">Northstar Dashboard</h3>
+                <p data-i18n="work.project2Desc">Dashboard analitik yang padat tapi tetap tenang — dengan sistem warna yang jelas dan navigasi yang cepat.</p>
+              </div>
+              <div class="work-card__art" aria-hidden="true"><span class="window"><i></i><i></i><i></i></span><span class="chart"></span></div>
+              <a class="work-card__link" href="#kontak" data-i18n-aria="work.case2Aria"><span data-i18n="work.case2">Lihat studi kasus Northstar</span> <span aria-hidden="true">↗</span></a>
+            </article>
+
+            <article class="work-card work-card--purple" data-reveal>
+              <div class="work-card__top"><span class="tag" data-i18n="work.tagSystem">Design System</span><span class="year">2025</span></div>
+              <div class="work-card__body">
+                <p class="work-card__index">03 / 04</p>
+                <h3 data-i18n="work.project3Title">Orbit Design System</h3>
+                <p data-i18n="work.project3Desc">168 komponen, satu bahasa visual. Membantu tim produk bergerak lebih cepat tanpa kehilangan konsistensi.</p>
+              </div>
+              <div class="work-card__art" aria-hidden="true"><span class="orbit"></span><span class="orbit orbit--small"></span><span class="cube"></span></div>
+              <a class="work-card__link" href="#kontak" data-i18n-aria="work.case3Aria"><span data-i18n="work.case3">Lihat studi kasus Orbit</span> <span aria-hidden="true">↗</span></a>
+            </article>
+
+            <article class="work-card work-card--orange" data-reveal style="--delay: 90ms">
+              <div class="work-card__top"><span class="tag" data-i18n="work.tagBrand">Brand &amp; Motion</span><span class="year">2024</span></div>
+              <div class="work-card__body">
+                <p class="work-card__index">04 / 04</p>
+                <h3 data-i18n="work.project4Title">Sunday Coffee</h3>
+                <p data-i18n="work.project4Desc">Identitas brand dan micro-interaction untuk kafe yang ingin terasa hangat, modern, dan dekat.</p>
+              </div>
+              <div class="work-card__art" aria-hidden="true"><span class="cup"></span><span class="steam"></span><span class="sun"></span></div>
+              <a class="work-card__link" href="#kontak" data-i18n-aria="work.case4Aria"><span data-i18n="work.case4">Lihat studi kasus Sunday Coffee</span> <span aria-hidden="true">↗</span></a>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- ABOUT -->
+      <section class="section about" id="tentang">
+        <div class="container about-grid">
+          <div class="about-heading" data-reveal>
+            <p class="kicker" data-i18n="about.kicker">Tentang saya</p>
+            <h2 data-i18n="about.title">Kepercayaan lahir dari detail kecil.</h2>
+            <p class="about-quiet" data-i18n="about.quiet">Saya percaya desain yang baik tidak perlu berteriak. Ia cukup hadir di tempat yang tepat, pada waktu yang tepat.</p>
+          </div>
+
+          <div class="about-content" data-reveal style="--delay: 100ms">
+            <p class="about-lead" data-i18n="about.lead">Saya bekerja di pertemuan antara desain dan kode. Mulai dari memahami masalah, merangkai alur, sampai memastikan transisi terakhir terasa halus di layar.</p>
+            <p class="about-body" data-i18n="about.body">Selama enam tahun terakhir saya membantu startup dan tim produk membangun pengalaman yang usable, konsisten, dan punya karakter. Saya nyaman di Figma, sama nyamannya di browser.</p>
+
+            <div class="skills" aria-label="Keahlian" data-i18n-aria="about.skillsAria">
+              <span data-i18n="about.skill1">VoIP Engineering</span><span data-i18n="about.skill2">IP PBX</span><span data-i18n="about.skill3">Elastix</span>
+              <span data-i18n="about.skill4">FreePBX</span><span data-i18n="about.skill5">VitalPBX</span><span data-i18n="about.skill6">Issabel</span>
+              <span data-i18n="about.skill7">Yeastar</span><span data-i18n="about.skill8">Dinstar</span><span data-i18n="about.skill9">Cisco CUCM</span>
+              <span data-i18n="about.skill10">Zycoo / Synway</span><span data-i18n="about.skill11">Grandstream</span><span data-i18n="about.skill12">FXO / FXS</span>
+              <span data-i18n="about.skill13">E1 / GSM Gateway</span><span data-i18n="about.skill14">SBC</span><span data-i18n="about.skill15">Proxmox</span>
+              <span data-i18n="about.skill16">Hyper-V</span><span data-i18n="about.skill17">vSphere</span><span data-i18n="about.skill18">Omnichannel</span>
+              <span data-i18n="about.skill19">Nurse Call</span><span data-i18n="about.skill20">PAGA System</span>
+            </div>
+
+            <div class="timeline">
+              <div><span data-i18n="about.period1">Sekarang</span><p data-i18n="about.job1">Product Developer — NORZ</p></div>
+              <div><span data-i18n="about.period2">2016 — sekarang</span><p data-i18n="about.job2">Senior VoIP Engineer — PT Divatel Pratama</p></div>
+              <div><span data-i18n="about.period3">2015 — 2016</span><p data-i18n="about.job3">IT Support — CV Caterine Style</p></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- PROCESS -->
+      <section class="section process" id="proses">
+        <div class="container">
+          <div class="section-head section-head--light" data-reveal>
+            <div>
+              <p class="kicker" data-i18n="process.kicker">Cara kerja</p>
+              <h2 data-i18n="process.title">Dari ide ke layar.</h2>
+            </div>
+            <p class="section-note" data-i18n="process.note">Proses sederhana yang menjaga hasil tetap fokus dan relevan.</p>
+          </div>
+
+          <div class="process-grid">
+            <article class="step" data-reveal>
+              <span class="step-num">01</span>
+              <h3 data-i18n="process.step1Title">Dengar</h3>
+              <p data-i18n="process.step1Desc">Memahami tujuan, pengguna, dan batasan sebelum menyentuh desain.</p>
+            </article>
+            <article class="step" data-reveal style="--delay: 70ms">
+              <span class="step-num">02</span>
+              <h3 data-i18n="process.step2Title">Rangkai</h3>
+              <p data-i18n="process.step2Desc">Alur, wireframe, dan struktur konten yang masuk akal sejak awal.</p>
+            </article>
+            <article class="step" data-reveal style="--delay: 140ms">
+              <span class="step-num">03</span>
+              <h3 data-i18n="process.step3Title">Haluskan</h3>
+              <p data-i18n="process.step3Desc">Visual, tipografi, dan motion yang memberi rasa pada setiap interaksi.</p>
+            </article>
+            <article class="step" data-reveal style="--delay: 210ms">
+              <span class="step-num">04</span>
+              <h3 data-i18n="process.step4Title">Serahkan</h3>
+              <p data-i18n="process.step4Desc">Komponen siap pakai, dokumentasi, dan pendampingan saat implementasi.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- CONTACT -->
+      <section class="section contact" id="kontak">
+        <div class="container contact-inner" data-reveal>
+          <p class="kicker" data-i18n="contact.kicker">Mari berkolaborasi</p>
+          <h2><span data-i18n="contact.titleLead">Punya ide? </span><span class="gradient-text" data-i18n="contact.titleAccent">Kita wujudkan.</span></h2>
+          <p class="contact-lead" data-i18n="contact.lead">Ceritakan sedikit tentang proyekmu. Saya biasanya membalas dalam satu hari kerja.</p>
+          <a class="email-link" href="mailto:halo@nanto.id">
+            halo@nanto.id
+            <svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M4 16 16 4M7 4h9v9" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" /></svg>
+          </a>
+          <div class="socials">
+            <a href="#" aria-label="LinkedIn">LinkedIn</a>
+            <a href="#" aria-label="GitHub">GitHub</a>
+            <a href="https://wa.me/" aria-label="WhatsApp">WhatsApp</a>
+            <a href="mailto:halo@nanto.id" aria-label="Email">Email</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer-inner">
+        <a class="brand brand--small" href="#top" data-i18n-aria="common.brandAria">
+          <span class="brand-mark" aria-hidden="true">
+            <svg viewBox="0 0 28 28" fill="none"><path d="M7.5 22V13.8C7.5 9.9 10 7 14 7s6.5 2.9 6.5 6.8V22" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" /></svg>
+          </span>
+          <span class="brand-name" data-i18n="common.brand">nanto</span>
+        </a>
+        <p>© <span id="year">2026</span> <span data-i18n="footer.credit">Nama Kamu. Dibuat dengan kopi &amp; perhatian.</span></p>
+        <a href="#top" data-i18n="common.backToTop">Kembali ke atas ↑</a>
+      </div>
+    </footer>
+  </body>
+</html>
