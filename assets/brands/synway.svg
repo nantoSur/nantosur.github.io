@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="SYNWAY">
+  <defs>
+    <linearGradient id="s" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#64d2ff"/>
+      <stop offset="1" stop-color="#5e5ce6"/>
+    </linearGradient>
+  </defs>
+  <rect x="3" y="3" width="58" height="58" rx="16" fill="url(#s)"/>
+  <path d="M43.5 19.5c-3-2.6-7-4-11.8-4-7.3 0-12.2 3.8-12.2 9.5 0 5.1 3.6 7.9 10.8 9.2l3.1.6c3.8.7 5.5 1.7 5.5 3.4 0 2.2-2.5 3.5-6.5 3.5-4.3 0-8.1-1.3-11.4-4v6.9c3.5 2.1 7.7 3.1 12.3 3.1 8.1 0 13.2-4 13.2-10.4 0-5.2-3.5-8.1-11-9.6l-3.4-.7c-3.9-.7-5.6-1.7-5.6-3.3 0-2 2.4-3.2 6-3.2 3.6 0 6.9 1.1 10 3.4Z" fill="#04101f"/>
+</svg>

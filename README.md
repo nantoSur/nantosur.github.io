@@ -10,7 +10,7 @@ portfolio-ui/
 ├── styles.css   # styling, animasi, responsive
 ├── script.js    # menu, reveal, parallax, tilt, player demo
 ├── assets/
-│   └── brands/  # logo brand (PNG dari Google Favicon + 3 monogram SVG)
+│   └── brands/  # logo brand (PNG dari Google Favicon + 4 monogram SVG)
 ├── robots.txt   # izin crawl & lokasi sitemap
 ├── sitemap.xml  # daftar URL untuk Google
 └── README.md
@@ -35,7 +35,7 @@ Lalu buka `http://localhost:8000`.
 - Teks hero, deskripsi proyek, keahlian, dan timeline.
 - Warna utama lewat variabel di bagian `:root` pada `styles.css` (saat ini palet biru terinspirasi kartu Northstar Dashboard).
 - Ilustrasi kartu dibuat murni dengan CSS (tanpa gambar eksternal), jadi aman diganti dengan screenshot proyek asli.
-- Logo brand ada di `assets/brands/`. `atcom.svg`, `witek.svg`, dan `escene.svg` sengaja dibuat monogram karena favicon resminya tidak ditemukan; ganti dengan file logo resmi jika tersedia.
+- Logo brand ada di `assets/brands/`. `atcom.svg`, `witek.svg`, `escene.svg`, dan `synway.svg` sengaja dibuat monogram karena favicon resminya tidak ditemukan; ganti dengan file logo resmi jika tersedia.
 - Bahasa Indonesia / English bisa diganti lewat tombol **ID / EN** di navigasi. Pilihan tersimpan di `localStorage`. Kamus terjemahan ada di bagian `translations` pada `script.js`.
 
 ## Agar masuk indeks Google
