@@ -46,6 +46,11 @@ const translations = {
 
     "ticker.text": "IP PBX ✦ SBC ✦ FXO / FXS ✦ E1 ✦ GSM GATEWAY ✦ PROXMOX ✦ OMNICHANNEL ✦\u00a0",
 
+    "brands.kicker": "Platform & perangkat",
+    "brands.title": "Brand yang saya kuasai.",
+    "brands.note": "Dari PBX open-source sampai appliance dan gateway — saya kerjakan hari demi hari.",
+    "brands.marqueeAria": "Brand perangkat dan platform VoIP yang saya kuasai",
+
     "work.kicker": "Sistem & produk",
     "work.title": "Yang saya bangun dan rawat.",
     "work.note": "Dari deploy multi-PBX sampai produk sendiri di bawah brand NORZ.",
@@ -169,6 +174,11 @@ const translations = {
     "player.stack": "Elastix · FreePBX · Proxmox",
 
     "ticker.text": "IP PBX ✦ SBC ✦ FXO / FXS ✦ E1 ✦ GSM GATEWAY ✦ PROXMOX ✦ OMNICHANNEL ✦\u00a0",
+
+    "brands.kicker": "Platforms & devices",
+    "brands.title": "Brands I work with.",
+    "brands.note": "From open-source PBX to appliances and gateways — day to day.",
+    "brands.marqueeAria": "VoIP platform and device brands I work with",
 
     "work.kicker": "Systems & products",
     "work.title": "Things I build and keep running.",

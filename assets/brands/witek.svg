@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="WITEK">
+  <defs>
+    <linearGradient id="w" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#64d2ff"/>
+      <stop offset="1" stop-color="#0a84ff"/>
+    </linearGradient>
+  </defs>
+  <rect x="3" y="3" width="58" height="58" rx="16" fill="url(#w)"/>
+  <path d="m16 20 6.5 24h5.2L32 29l4.3 15h5.2L48 20h-5.6l-3.8 15.6L34.6 20h-5.2l-4 15.6L21.6 20Z" fill="#04101f"/>
+</svg>
