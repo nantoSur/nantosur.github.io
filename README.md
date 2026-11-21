@@ -27,7 +27,7 @@ Lalu buka `http://localhost:8000`.
 
 ## Yang bisa diganti
 
-- `nanto`, `halo@nanto.id`, dan tautan sosial di `index.html`.
+- `nanto`, `surnanto.blogs@gmail.com`, WhatsApp `081315347158`, dan tautan sosial di `index.html`.
 - Teks hero, deskripsi proyek, keahlian, dan timeline.
 - Warna utama lewat variabel di bagian `:root` pada `styles.css` (saat ini palet biru terinspirasi kartu Northstar Dashboard).
 - Ilustrasi kartu dibuat murni dengan CSS (tanpa gambar eksternal), jadi aman diganti dengan screenshot proyek asli.
