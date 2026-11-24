@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>NORZ Softphone — Privacy Policy</title>
+<style>
+body{font-family:"Segoe UI",Arial,sans-serif;line-height:1.6;max-width:820px;margin:40px auto;padding:0 20px;color:#1b2733}
+h1{color:#12233f}h2{margin-top:28px;color:#1b3358}
+table{border-collapse:collapse;width:100%;margin:12px 0}
+th,td{border:1px solid #ccd6e0;padding:8px;text-align:left;vertical-align:top}
+th{background:#eef3f8}
+code{background:#eef3f8;padding:1px 4px;border-radius:3px}
+.small{color:#5a6b7c;font-size:.9em}
+</style>
+</head>
+<body>
+<h1>NORZ Softphone — Privacy Policy</h1>
+<p class="small"><strong>Version:</strong> 1.1.7 &nbsp;|&nbsp; <strong>Effective:</strong> 2026-11-24</p>
+
+<p>NORZ is a SIP desktop softphone. This policy explains what data the app accesses, stores and transmits.</p>
+
+<h2>Data we (the developer) collect</h2>
+<p><strong>None.</strong> NORZ does not send analytics, telemetry, crash reports, advertising identifiers, or usage data to us. There is no account with the developer and no central server operated by us.</p>
+<p>The app itself does access and transmit the data described below, but only to servers that you configure yourself.</p>
+
+<h2>Data stored on your device</h2>
+<table>
+<tr><th>Data</th><th>Purpose</th><th>Location</th></tr>
+<tr><td>SIP username, password, server/domain</td><td>To register the SIP account and place/receive calls</td><td>Local app settings (<code>NORZ.ini</code>)</td></tr>
+<tr><td>Call history (numbers, time, duration)</td><td>To show the local call log</td><td><code>call_log.db</code></td></tr>
+<tr><td>CRM contacts you add</td><td>To provide click-to-call from <code>crm.html</code></td><td>Browser <code>localStorage</code> on your machine</td></tr>
+<tr><td>Remote phonebook URL you enter</td><td>To load contacts/BLF from your PBX</td><td>Local app settings</td></tr>
+<tr><td>UI theme and options</td><td>To remember your preferences</td><td>Local app settings</td></tr>
+</table>
+<p>The saved SIP password is encrypted locally using the Windows CryptoAPI. You can delete all of this at any time: use <strong>Logout → Yes</strong> in the app to remove saved login, call log and phonebook, or uninstall the app.</p>
+
+<h2>Data sent to other services</h2>
+<p>NORZ connects <strong>only to servers you configure yourself</strong>:</p>
+<ul>
+<li>Your SIP server / PBX (for registration, voice calls, presence/BLF).</li>
+<li>An optional remote phonebook URL that you enter in Settings.</li>
+</ul>
+<p>Audio from your microphone is sent directly to the configured SIP endpoint when you start or answer a call. This build does not support video and does not use the webcam. We do not sell your data and we do not share it for advertising.</p>
+
+<h2>Permissions</h2>
+<ul>
+<li><strong>Microphone</strong> — required for voice calls.</li>
+<li><strong>Network (internet/intranet)</strong> — required for SIP signaling and media.</li>
+<li><strong>Protocol registration (<code>sip:</code>, <code>tel:</code>, <code>callto:</code>, <code>msip:</code>)</strong> — so clicking a number in a browser, e-mail or CRM opens NORZ.</li>
+<li><strong>Full trust (<code>runFullTrust</code>)</strong> — required because NORZ is a classic Win32 desktop application that uses the Windows SIP stack, local files and the system tray.</li>
+</ul>
+
+<h2>Contact</h2>
+<p>For privacy questions, use the support contact information provided in your Microsoft Store listing.</p>
+</body>
+</html>
